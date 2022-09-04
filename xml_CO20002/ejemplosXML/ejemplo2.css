@@ -1,0 +1,47 @@
+/* ejemplo1.css   CO20002  */
+pais{
+    background: blue;
+}
+
+departamento{
+    text-align: center;
+    background: khaki;
+    display: block;
+    width: 60%;
+    height: 150px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 80px;
+    border: 2px black solid;
+    font-size: 2em;
+}
+
+cabecera{
+    display: block;
+}
+
+cabecera::before{
+    content: "Cabecera: ";
+    display: inline;
+    font-weight: bold;
+}
+
+habitantes{
+    display: block;
+}
+
+habitantes::before{
+    content: "Habitantes: ";
+    display: inline;
+    font-weight: bold;
+}
+
+altura{
+    display: block;
+}
+
+altura::before{
+    content: "Altura: ";
+    display: inline;
+    font-weight: bold;
+}

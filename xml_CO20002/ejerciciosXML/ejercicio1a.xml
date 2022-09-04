@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?> 
+<?xml-stylesheet type="text/css" href="ejercicio1a.css" ?>
+<!-- ejemplo1.xml  CO20002 -->
+<fichero>
+    <ficha id="1" fechaingreso="1/11/2012">
+        <nombre>Antonio</nombre>
+        <apellido>Barbero</apellido>
+        <direccion>Calle de Los Andes, 45</direccion>
+    </ficha>
+
+    <ficha id="2" fechaingreso="28/8/2022">
+        <nombre>Martín</nombre>
+        <apellido>Cruz</apellido>
+        <direccion>Antiguo Cuscatlán</direccion>
+        <telefono>78002936</telefono>
+        <email>co20002@ues.edu.sv</email>
+        <website>https://www.campus.ues.edu.sv</website>
+    </ficha>
+</fichero> 

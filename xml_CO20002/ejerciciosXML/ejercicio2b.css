@@ -1,0 +1,134 @@
+pais {
+  background: rgb(16, 17, 92);
+  padding-bottom: 5em;
+}
+
+pais::before {
+  content: "EL SALVADOR";
+  display: block;
+  text-align: center;
+  font-size: 5em;
+}
+
+moneda {
+  display: block;
+  width: 500px;
+  height: 150px;
+  border: 1px solid #ffffff;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 3em;
+  color: violet;
+}
+
+moneda papel {
+  display: block;
+  content: "Monedas";
+}
+
+moneda::before {
+  content: "Moneda: ";
+  display: inline;
+  font-weight: bold;
+  font-size: 3em;
+}
+
+areatelefonica {
+  display: block;
+  content: "Area: ";
+  border: 1px solid #ffffff;
+  width: 498px;
+  height: 15px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 3em;
+  color: violet;
+}
+
+idiomas {
+  display: block;
+  width: 500px;
+  height: 150px;
+  border: 1px solid #ffffff;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 3em;
+  color: violet;
+}
+
+idiomas::before {
+  display: block;
+  content: "Idiomas";
+  font-weight: bold;
+  font-size: 3em;
+}
+
+oficial {
+  display: block;
+}
+autoctono {
+  display: block;
+}
+
+departamentos {
+  display: block;
+  width: 500px;
+  height: 550px;
+  border: 1px solid #ffffff;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 3em;
+  color: violet;
+}
+
+departamentos::before {
+  content: "Departamentos: ";
+  display: inline;
+  font-size: 2em;
+}
+departamento {
+  display: block;
+  width: 500px;
+  height: 150px;
+  border: 1px solid #ffffff;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 2em;
+  color: violet;
+}
+cabecera {
+  display: block;
+}
+
+cabecera::before {
+  content: "Cabecera: ";
+  display: inline;
+  font-weight: bold;
+}
+
+habitantes {
+  display: block;
+}
+habitantes::before {
+  content: "Habitantes: ";
+  display: inline;
+  font-weight: bold;
+}
+altura {
+  display: block;
+}
+altura::before {
+  content: "Altura: ";
+  display: inline;
+  font-weight: bold;
+}
+
+area {
+  display: block;
+}
+
+area::before {
+  content: "Area: ";
+  display: inline;
+  font-weight: bold;
+}

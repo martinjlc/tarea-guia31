@@ -1,0 +1,73 @@
+fichero{
+    background: royalblue;
+}
+
+ficha{
+   border: 3px red solid;
+    display: block;
+    width: 480px;
+    height: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    background: bisque;
+    padding: 1em;
+}
+nombre{
+    display: block;
+}
+
+nombre::before{
+    content: "Nombre: ";
+    display: inline;
+    font-weight: bold;
+}
+
+apellido{
+    display: block;
+}
+
+apellido::before{
+    content: "Apellido: ";
+    display: inline;
+    font-weight: bold;
+}
+
+direccion{
+    display: block;
+}
+
+direccion::before{
+    content: "Dirección: ";
+    display: inline;
+    font-weight: bold;
+}
+telefono{
+    display: block;
+}
+
+telefono::before{
+    content: "Teléfono: ";
+    display: inline;
+    font-weight: bold;
+}
+
+email{
+    display: block;
+}
+
+email::before{
+    content: "E-mail: ";
+    display: inline;
+    font-weight: bold;
+}
+
+website{
+    display: block;
+}
+
+website::before{
+    content: "Website: ";
+    display: inline;
+    font-weight: bold;
+}
